@@ -3,7 +3,8 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const text =
-  "Rain falls on the leaves, one drop after another, and the river below carries each one away, unhurried. The light stays low and grey, the water keeps its slow rhythm, and nothing asks the afternoon to be anywhere else.";
+  "Rain falls on the leaves, one drop at a time, and the river below carries each one away, unhurried. " +
+  "The light stays low and grey, the water holds its slow rhythm, and nothing asks the afternoon to be anywhere else.";
 
 const outDir =
   process.env.MAKEFUN_OUTPUT_DIR ||
